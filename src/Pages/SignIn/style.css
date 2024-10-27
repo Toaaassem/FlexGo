@@ -1,0 +1,20 @@
+.bggg {
+    background-image: url(../../assets/gridview-bg.jpg);
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+.signin-card{ 
+    width: 40%;
+    position: absolute;
+    top: 30% !important;
+    left: 30%; 
+    border-top-color: #ff568e !important;
+
+} 
+.btn{
+    background-color: #ff568e !important;
+}

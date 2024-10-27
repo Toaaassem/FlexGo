@@ -1,0 +1,9 @@
+/* style.css */
+.navbar .nav-link {
+  color: white; 
+  transition: color 0.3s, text-decoration 0.3s; 
+}
+
+.navbar .nav-link:hover {
+  color: #ff568e; 
+}

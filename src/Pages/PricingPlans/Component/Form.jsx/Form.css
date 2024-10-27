@@ -1,0 +1,56 @@
+.form-bg{
+  background-image: url('/public/section__bg.jpg');
+}
+
+.cardddd {
+  width: 40%;
+  position: absolute;
+  top: 15% !important;
+  left: 39%;
+  border-top-color: #ff568e !important;
+  border-radius: 10px;
+}
+.bbb {
+  color: #2b2b13 !important;
+  background-color: #ff568e !important;
+  width: 120px;
+  
+}
+
+.customm-select {
+  background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="ff5598" d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 15x 15px;
+  padding-right: 30px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.customm-select:focus {
+  outline-color: #ff5598;
+  border-color: #ff5598;
+}
+
+.fbutton {
+  margin-right: 10px;
+  background-color: transparent !important;
+  border: none;
+}
+
+.fbutton:hover svg {
+  opacity: 1;
+  fill: #ff55a5;
+}
+.fbutton svg {
+  fill: rgba(199, 199, 199, 0.6);
+  height: auto;
+  width: 24px;
+}
+svg {
+  transition: fill 0.5s ease;
+}
+img,
+svg {
+  vertical-align: middle;
+}
