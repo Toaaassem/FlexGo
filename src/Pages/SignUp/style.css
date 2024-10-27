@@ -1,0 +1,21 @@
+.bggg {
+    background-image: url(../../../public/section__bg.jpg);
+    height: 100vh;
+    margin: 0;
+  }
+.signBody{
+    background-image: url(https://flixgo.volkovdesign.com/main/img/bg/section__bg.jpg);
+}
+
+.signupcard{ 
+    width: 40%;
+    position: absolute;
+    top: 20% !important;
+    left: 30%; 
+    border-top-color: #ff568e !important;
+
+} 
+button{
+    color: #2b2b13 !important;
+    background-color: #ff568e !important;
+}

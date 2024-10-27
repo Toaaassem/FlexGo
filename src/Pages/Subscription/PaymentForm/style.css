@@ -1,0 +1,52 @@
+.custom-card {
+  background-color: #29292e;
+  color: white;
+  position: relative;
+  padding: 20px;
+}
+
+.custom-input, .custom-select {
+  background-color: #2b2b30;
+  color: white;
+  border: 1px solid #444;
+}
+
+.custom-input::placeholder {
+  color: #ccc; /* Placeholder color */
+}
+
+.custom-radio {
+  color: white;
+}
+
+.custom-radio input {
+  accent-color: #2b2b30;
+}
+
+/* X button (exit) styling */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.close-btn:hover {
+  color: #ff4d4d; /* Change color on hover */
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.close-btn:hover {
+  color: #ff4d4d; /* Change color on hover */
+}

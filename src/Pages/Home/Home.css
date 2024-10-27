@@ -1,0 +1,56 @@
+/* Background for the page */
+.home {
+    background-color:  #2b2b31;
+}
+/* Home.css */
+
+/* Carousel container styling */
+.carousel-container {
+    border: 5px ; /* Change to dashed border style */
+    border-radius: 7px; /* Adjust this value for desired roundness */
+    overflow: hidden; /* Hide overflow to keep the border clean */
+}
+
+/* Carousel images */
+.carousel-inner img {
+    border-radius: 10px; /* Same border radius for images */
+    width: 100%; /* Ensure images cover the full width */
+    height: 550px; /* Maintain aspect ratio */
+}
+
+/* Optional: Customize carousel indicators */
+/* .carousel-indicators [data-bs-target] {
+    background-color: #ff568e; /* Indicator color */
+ */
+
+.carousel-indicators .active {
+    background-color: #2b2b13; /* Active indicator color */
+}
+
+
+/* Home.css */
+.carousel-container {
+    position: relative; /* Ensure the carousel container has relative positioning */
+  }
+  
+  .imageCaption {
+    color: white; /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for readability */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px 20px; /* Add some padding */
+    border-radius: 5px; /* Optional: rounded corners */
+    text-align: center; 
+    /* Center text */
+    width: 100%; /* Full width */
+    height: 100%;
+  }
+  
+.Movie{
+    gap: 10px !important;
+    height: 400px;
+    overflow: hidden;
+}
+.Movies{
+    gap: 15px !important;
+}
+  

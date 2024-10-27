@@ -1,0 +1,60 @@
+.movie-card-container {
+    position: relative; /* For positioning the overlay */
+  }
+  
+  .movie-card {
+    border-radius: 15px; /* Round the corners */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transitions for hover effects */
+    overflow: hidden; /* Ensures content stays within rounded corners */
+    background-color: #222; /* Dark background for cards */
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+  }
+  
+  .card-img-top {
+    border-radius: 15px 15px 0 0; /* Round the top corners of the image */
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover; /* Ensure image covers the space */
+  }
+  
+  .card-body {
+    padding: 15px; /* Consistent padding */
+  }
+  
+  .card-title {
+    font-size: 1.1rem; /* Slightly larger title */
+    font-weight: bold; /* Make title bold */
+  }
+  
+  .card-text {
+    font-size: 0.9rem; /* Adjust text size */
+    color: #ccc; /* Slightly lighter text color */
+  }
+  
+  /* Overlay styling */
+  .overlay {
+    position: absolute; /* Position the overlay over the image */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Start hidden */
+    transition: opacity 0.3s; /* Smooth transition */
+  }
+  
+  .movie-card:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+  }
+  
+  .play-icon {
+    color: #fff; /* Icon color */
+    font-size: 2rem; /* Icon size */
+  }
+  
